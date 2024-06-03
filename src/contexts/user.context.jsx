@@ -1,5 +1,5 @@
 import { createContext, useEffect, useState } from "react";
-import { createUserDocumentFromAuth, onAuthStateChangedListener, signOutUser } from "../utils/firebase/firebase.utils";
+import { createUserDocumentFromAuth, onAuthStateChangedListener} from "../utils/firebase/firebase.utils";
 //as the actual value 
 export const UserContext = createContext({
     setCurrentUser: () => null,
